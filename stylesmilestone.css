@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+body {
+  background: rgb(255, 212, 151);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 212, 151, 1) 0%,
+    rgba(247, 105, 0, 1) 100%
+  );
+  font-family: "Open Sans", sans-serif;
+}
+#top-bar {
+  width: fit-content;
+  background-image: url(https://piskel-imgstore-b.appspot.com/img/b0145d8f-7858-11eb-9e5a-0d60394e8cb3.gif);
+  background-repeat: no-repeat;
+}
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: black;
+}
+
+/*Navigation*/
+.menu .menu-items {
+  display: flex;
+  justify-content: space-between;
+  /*margin: 0 30px;*/
+  align-items: center;
+}
+.menu-items li {
+  list-style: none;
+  font-size: 1.5rem;
+}
+.menu-items a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: 1s;
+}
+.menu-items a:hover {
+  cursor: pointer;
+  color: white;
+  font-size: 1.8rem;
+}
+h2 {
+  font-size: 1rem;
+}
+.description {
+  font-size: 1rem;
+  list-style-image: url(https://piskel-imgstore-b.appspot.com/img/8e2069ca-7858-11eb-96e9-0d60394e8cb3.gif);
+}
+.weekly-selection div {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+h3 {
+  font-size: 1rem;
+}
